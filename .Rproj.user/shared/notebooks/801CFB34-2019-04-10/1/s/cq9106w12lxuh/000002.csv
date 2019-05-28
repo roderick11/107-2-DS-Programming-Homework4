@@ -1,0 +1,39 @@
+"0","library(readr)"
+"0","githubData <- read_csv(""https://raw.githubusercontent.com/tpemartin/github-data/master/githubData.csv"")"
+"2","Missing column names filled in: 'X1' [1]"
+"2","Parsed with column specification:
+cols(
+  X1 = [32mcol_double()[39m,
+  Timestamp = [31mcol_character()[39m,
+  `GitHub username` = [31mcol_character()[39m,
+  `GitHub repo name` = [31mcol_character()[39m
+)
+"
+"0","username <- githubData$`GitHub username`[11:16]"
+"0","reponame <- githubData$`GitHub repo name`[11:16]"
+"0","ans <- str_c(""https://github.com"",username,reponame,sep = ""/"")"
+"0","ans"
+"1","[1]"
+"1"," ""https://github.com/suhonglin/suhonglin""            "
+"1","
+"
+"1","[2]"
+"1"," ""https://github.com/Chen-Ying-Chen/inclassPractice1"""
+"1","
+"
+"1","[3]"
+"1"," ""https://github.com/tiffany60328/tiffany60328""      "
+"1","
+"
+"1","[4]"
+"1"," ""https://github.com/shemchiayu/shemchiayu""          "
+"1","
+"
+"1","[5]"
+"1"," ""https://github.com/yienchiu/RPractice""             "
+"1","
+"
+"1","[6]"
+"1"," ""https://github.com/AsiaCarry/AsiaCarry""            "
+"1","
+"

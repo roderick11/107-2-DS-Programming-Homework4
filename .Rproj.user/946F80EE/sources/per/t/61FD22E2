@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559051200704.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "61FD22E2",
+    "lastKnownWriteTime" : 32369824192659557,
+    "last_content_update" : 1559051200704,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D81B5677",
+        "caption" : "df_allCommits",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=df_allCommits&cache_key=D81B5677",
+        "displayedObservations" : 30,
+        "environment" : "",
+        "object" : "df_allCommits",
+        "preview" : 0,
+        "totalObservations" : 30,
+        "variables" : 4
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

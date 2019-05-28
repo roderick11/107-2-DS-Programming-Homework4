@@ -1,0 +1,41 @@
+"0","#  dataframe_show_info"
+"0","dataframe_show_info <- function(exhibitionInput){"
+"0","  df_oneShow <- data.frame("
+"0","  title=exhibitionInput$title,"
+"0","  time=exhibitionInput$showInfo[[1]]$time,"
+"0","  location=exhibitionInput$showInfo[[1]]$location,"
+"0","  locationName=exhibitionInput$showInfo[[1]]$locationName,"
+"0","  price=exhibitionInput$showInfo[[1]]$price,"
+"0","  endTime=exhibitionInput$showInfo[[1]]$endTime,"
+"0","  sourceWebName=exhibitionInput$sourceWebName,"
+"0","  stringsAsFactors=F"
+"0",")"
+"0","  return(df_oneShow)"
+"0","}"
+"0","dataframe_show_info"
+"1","function(exhibitionInput){
+"
+"1","  df_oneShow <- data.frame(
+"
+"1","  title=exhibitionInput$title,
+"
+"1","  time=exhibitionInput$showInfo[[1]]$time,
+"
+"1","  location=exhibitionInput$showInfo[[1]]$location,
+"
+"1","  locationName=exhibitionInput$showInfo[[1]]$locationName,
+"
+"1","  price=exhibitionInput$showInfo[[1]]$price,
+"
+"1","  endTime=exhibitionInput$showInfo[[1]]$endTime,
+"
+"1","  sourceWebName=exhibitionInput$sourceWebName,
+"
+"1","  stringsAsFactors=F
+"
+"1",")
+"
+"1","  return(df_oneShow)
+"
+"1","}
+"

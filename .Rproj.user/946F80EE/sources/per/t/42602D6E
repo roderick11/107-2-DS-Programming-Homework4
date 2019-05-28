@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559051196967.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "42602D6E",
+    "lastKnownWriteTime" : 32370111947997184,
+    "last_content_update" : 1559051196967,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "e992fec8933d4b9d8c34f7573e60b243",
+        "name" : "commitHistory",
+        "title" : "commitHistory"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}
